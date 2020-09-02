@@ -1,27 +1,5 @@
 {
-  "logs": [
-    {
-      "id": 1,
-      "message": "Workstation 008 not posting",
-      "attention": true,
-      "date": "2019-05-31T15:46:10.179Z",
-      "tech": "Sam Smith"
-    },
-    {
-      "id": 2,
-      "message": "Workstation 007 not posting",
-      "attention": true,
-      "date": "2019-09-30T15:46:10.179Z",
-      "tech": "John Doe"
-    },
-    {
-      "id": 3,
-      "message": "Changed memory on workstation 050",
-      "attention": false,
-      "date": "2020-08-30T15:46:10.179Z",
-      "tech": "Sara Wilson"
-    }
-  ],
+  "logs": [],
   "techs": [
     {
       "id": 1,
