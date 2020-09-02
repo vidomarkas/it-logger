@@ -44,7 +44,7 @@ export const getLogs = () => async (dispatch) => {
 };
 
 // Set current
-const setCurrent = (log) => {
+export const setCurrent = (log) => {
   return {
     type: SET_CURRENT,
     payload: log,
@@ -52,7 +52,7 @@ const setCurrent = (log) => {
 };
 
 // Clear current
-const clearCurrent = () => {
+export const clearCurrent = () => {
   return {
     type: CLEAR_CURRENT,
   };

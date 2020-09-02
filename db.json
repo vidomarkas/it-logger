@@ -1,5 +1,20 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "message": "fixed 002 drive",
+      "tech": "Sam Smith",
+      "attention": false,
+      "id": 1,
+      "date": "2020-09-02T11:55:49.368Z"
+    },
+    {
+      "message": "Emergency! fix the faucet in the bathroom! DONE!",
+      "tech": "John Doe",
+      "attention": false,
+      "id": 2,
+      "date": "2020-09-02T11:56:48.043Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
