@@ -32,16 +32,6 @@
       "id": 2,
       "firstName": "Sarah",
       "lastName": "Wilson"
-    },
-    {
-      "id": 3,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
-      "firstName": "Viktoras",
-      "lastName": "Domarkas",
-      "id": 4
     }
   ]
 }

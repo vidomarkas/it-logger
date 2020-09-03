@@ -15,11 +15,20 @@ export default (state = initialState, action) => {
     case GET_TECHS:
       return { ...state, techs: action.payload, loading: false };
     case DELETE_TECH:
-      return { ...state };
+      return {
+        ...state,
+        techs: state.techs.filter((t) => t.id !== action.payload),
+        loading: false,
+      };
     case ADD_TECH:
-      return { ...state };
+      return {
+        ...state,
+        techs: [...state.techs, action.payload],
+        loading: false,
+      };
     case TECHS_ERROR:
-      return { ...state };
+      console.log(action.payload);
+      return { ...state, error: action.payload };
     default:
       return { ...state };
   }
